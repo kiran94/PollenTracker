@@ -14,3 +14,7 @@ export GMAIL_PASSWORD = YOUR_GMAIL_PASSWORD
 notificationRecipents = [""] # ADD RECIPENT EMAILS TO THIS LIST
 ```
 4. You can then add the application to your crontab file.
+
+Alternatively you can run the script without sending any emails and just print the output to stdout. To do this run the file as follows: 
+```python 
+python main.py -o 
