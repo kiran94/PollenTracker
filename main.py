@@ -19,7 +19,7 @@ emailService = EmailService(gmailUser, gmailPassword)
 pollen = pollenService.getPollenFlag()
 print pollen
 
-if (sendEmail and (pollen == "Very High" or pollen == "High" or pollen == "Low")):
+if (sendEmail and (pollen == "Very High" or pollen == "High")):
 	result = emailService.sendEmail(
 		notificationRecipents, 
 		gmailUser, 
